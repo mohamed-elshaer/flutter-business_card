@@ -14,12 +14,13 @@ class Busniesscard extends StatelessWidget {
         backgroundColor: Color(0xFF2B475E),
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                radius: 122,
+                radius: 112,
                 backgroundColor: Colors.white,
                 child: CircleAvatar(
-                  radius: 120,
+                  radius: 110,
                   backgroundColor: Colors.white,
                   backgroundImage: AssetImage('images/avatar.png'),
                 ),
@@ -40,6 +41,12 @@ class Busniesscard extends StatelessWidget {
                     fontWeight: FontWeight.bold
                     // fontFamily: 'Pacifico',
                     ),
+              ),
+              Divider(
+                color: Color(0xFF6C8090),
+                thickness: 1,
+                indent: 60,
+                endIndent: 60,
               ),
               Padding(
                 padding:
