@@ -48,6 +48,27 @@ class Busniesscard extends StatelessWidget {
                 indent: 60,
                 endIndent: 60,
               ),
+              Card(
+                // modified widget for cards
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                margin: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.hub,
+                    color: Color(0xFF2B475E),
+                    size: 35,
+                  ),
+                  title: Text(
+                    'mohamed-elshaer',
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Color(0xFF2B475E),
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
               Padding(
                 padding:
                     const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
